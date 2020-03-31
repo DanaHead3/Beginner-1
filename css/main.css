@@ -1,7 +1,7 @@
 /* body */
 
 body {
-    background-color: #aeaeae;
+    background-color: #66a19cc0;
     margin: 0;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .header .logo {
-    background-color: #aeaeae;
+    background-color: #e7e5e6;
     display: inline-block;
     font-size: 48px;
     padding: 15px 50px;
@@ -30,7 +30,7 @@ body {
 /* site nav */
 
 .navigation {
-    background-color: #a5a3a4;
+    background-color: #66a19cc0;
 }
 
 .navigation ul {
@@ -43,11 +43,19 @@ body {
     padding: 15px 25px;
 }
 
+.navigation li a:hover {
+    transition-duration: 0.4s;
+    background-color: #75bbb5cb;
+}
+
+
 .navigation a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
 
 /* main div */
 
@@ -83,9 +91,9 @@ body {
 
 .footer {
     clear: left;
-    background-color: #514f50;
+    background-color: #4e4148;
     font-size: 14px;
-    padding: 9px 0;
+    padding: 10px 0;
 }
 
 .footer p {
@@ -93,3 +101,28 @@ body {
     color: #ffffff;
     padding-left: 35px;
 }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: rgb(91, 150, 135);
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
